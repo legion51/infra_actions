@@ -13,7 +13,7 @@ jobs:
           python-version: 3.8
       - name: Install dependencies
         run: |
-          # Обновление  pip
+          # Обновление pip
           python -m pip install --upgrade pip
           # Установка flake8 и его плагинов
           pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
